@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Model artifacts
+models/*.pth
+models/*.json
+!models/.gitkeep
+
+# Runtime uploads
+uploads/*
+!uploads/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+README.md
+95-53-resnet-18.ipynb
+resnet18_colab_t4_final.ipynb
+resnet18-colab-t4_initial.ipynb
+.mypy_cache/
