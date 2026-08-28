@@ -26,7 +26,9 @@ Thumbs.db
 
 # Env files
 .env
-README.md
+*.md 
+!README.md
+
 95-53-resnet-18.ipynb
 resnet18_colab_t4_final.ipynb
 resnet18-colab-t4_initial.ipynb
